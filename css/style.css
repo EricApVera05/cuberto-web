@@ -115,14 +115,27 @@ margin-left: 6%;
     margin: 40px;
 }
 @media screen and (max-width:768px){
-.column-2{
-    display: flex;
-    flex-wrap: wrap;
-}
-.izq{
-    width: 100%;
-}
-.der{
-    width: 100%;
-}
+    .column-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .izq{
+        width: 100%;
+    }
+    .der{
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .column-4{
+        width: 50%;
+        background-color: black;
+        color: white;
+        font-size: 11px;
+    }
+    .margin{
+        margin-left: 0%;
+    }
 }
