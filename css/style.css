@@ -19,8 +19,6 @@ body{
     text-align: justify;
     width: 60%;
     height:320px;
-    margin-left: 3%;
-    margin-right: 10%;
 }
 .mobile{
     font-family: Arial;
@@ -94,6 +92,10 @@ body{
 .margin{
     margin-left: 2%;
 }
+.margen{
+    margin-left: 3%;
+    margin-right: 10%;
+}
 .p1{
 font-size: 30px;
 margin-left: 6%;
@@ -112,18 +114,15 @@ margin-left: 6%;
     background-color: black;
     margin: 40px;
 }
-@media screen and (max-width:600px){
-    .column-2{
-        width: 100%;
-    }
-    .column-4{
-        width: 50%;
-    }
-    .column-3{
-        width: 100%;
-    }
-    .row::after{
-        display: flex;
-        clear:both;
-    }
+@media screen and (max-width:768px){
+.column-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.izq{
+    width: 100%;
+}
+.der{
+    width: 100%;
+}
 }
