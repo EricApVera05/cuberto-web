@@ -16,7 +16,6 @@ body{
     color: rgb(31, 143, 104);
     font-size: 30px;
     position: static;
-    text-align: justify;
     width: 60%;
     height:320px;
 }
@@ -84,13 +83,8 @@ body{
     width: 33.33%;
     background-color: cyan;
 }
-.estilos{
-    border-style: solid;
-    border-width: 0px;
-    border-color: black;
-}
 .margin{
-    margin-left: 2%;
+    margin-left: 0%;
 }
 .margen{
     margin-left: 3%;
@@ -113,6 +107,9 @@ margin-left: 6%;
 .back{
     background-color: black;
     margin: 40px;
+}
+.color{
+    background-color: rgb(249, 242, 239);
 }
 @media screen and (max-width:768px){
     .column-2{
@@ -138,4 +135,40 @@ margin-left: 6%;
     .margin{
         margin-left: 0%;
     }
+
+    .margen{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .img1{
+        margin-right: 20px;
+        margin-left: 7%; 
+        
+    }
+    .img2{
+        margin-right: 20px;
+        margin-left: 7%;
+    }
+    .img3{
+        margin-right: 20px;
+        margin-left: 7%;
+    }
+    .p1{
+        font-size: 25px;
+        margin-left: 6%;
+        }
+        .p2{
+        font-size: 28px;
+        margin-left: 4%;
+        color: rgb(167, 167, 167);
+        margin-right: 6%;
+        }
+        .p3{
+        font-size: 20px;
+        margin-left: 6%;
+        }
+        .mobile{
+        margin-top: 50px;
+        font-size: 22px;
+        }
 }
