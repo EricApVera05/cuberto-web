@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 70%;
+    margin: 0 auto;
+    font-family: Arial;
+    
+}
+.row{
+    display: flex;
+    
+}
+.titulo{
+    font-family: Arial;
+    color: rgb(31, 143, 104);
+    font-size: 30px;
+    position: static;
+    text-align: justify;
+    width: 60%;
+    height:320px;
+    margin-left: 3%;
+    margin-right: 10%;
+}
+.mobile{
+    font-family: Arial;
+    color: black;
+    font-size: large;
+    position: static;
+    text-align: justify;
+    margin-left: 1%;
+    margin-top: 5%;
+    
+}
+.column-1{
+    width: 100%;
+}
+.idea{
+    display: flex;
+    flex-direction:column-reverse;
+    background-color: black;
+    color: white;
+}
+.column-2{
+    width: 50%;;
+    height:430px;
+}
+.img1{
+    width: 380px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 15%; 
+    
+}
+.img2{
+    width: 380px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 15%;
+}
+.img3{
+    width: 380px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 15%;
+}
+.column-4{
+    width: 25%;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+}
+.column-3{
+    width: 33.33%;
+    background-color: cyan;
+}
+.estilos{
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+}
+.margin{
+    margin-left: 2%;
+}
+.p1{
+font-size: 30px;
+margin-left: 6%;
+}
+.p2{
+font-size: 52px;
+margin-left: 6%;
+color: rgb(167, 167, 167);
+margin-right: 15%;
+}
+.p3{
+font-size: 24px;
+margin-left: 6%;
+}
+.back{
+    background-color: black;
+    margin: 40px;
+}
+@media screen and (max-width:600px){
+    .column-2{
+        width: 100%;
+    }
+    .column-4{
+        width: 50%;
+    }
+    .column-3{
+        width: 100%;
+    }
+    .row::after{
+        display: flex;
+        clear:both;
+    }
+}
