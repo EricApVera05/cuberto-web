@@ -110,7 +110,13 @@ margin-left: 6%;
     margin: 40px;
 }
 .color{
+    background-color: rgb(242, 232, 245);
+}
+.color2{
     background-color: rgb(249, 242, 239);
+}
+.color3{
+    background-color: rgb(238, 248, 241);
 }
 @media screen and (max-width:768px){
     .column-2{
@@ -144,14 +150,18 @@ margin-left: 6%;
     .img1{
         margin-right: 20px;
         margin-left: 7%; 
-        
+        text-align: center;
     }
     .img2{
         margin-right: 20px;
         margin-left: 7%;
+        
     }
     .espacio{
         height:450px;
+    }
+    .espacio2{
+        height: 350px;
     }
     .img3{
         margin-right: 20px;
