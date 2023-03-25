@@ -31,6 +31,8 @@ body{
 }
 .column-1{
     width: 100%;
+    
+    
 }
 .idea{
     display: flex;
@@ -39,8 +41,7 @@ body{
     color: white;
 }
 .column-2{
-    width: 50%;;
-    height:430px;
+    width: 50%;
 }
 .img1{
     width: 380px;
@@ -149,6 +150,9 @@ margin-left: 6%;
         margin-right: 20px;
         margin-left: 7%;
     }
+    .espacio{
+        height:450px;
+    }
     .img3{
         margin-right: 20px;
         margin-left: 7%;
@@ -157,18 +161,21 @@ margin-left: 6%;
         font-size: 25px;
         margin-left: 6%;
         }
-        .p2{
+    .p2{
         font-size: 28px;
         margin-left: 4%;
         color: rgb(167, 167, 167);
         margin-right: 6%;
         }
-        .p3{
+    .p3{
         font-size: 20px;
         margin-left: 6%;
         }
-        .mobile{
+    .mobile{
         margin-top: 50px;
         font-size: 22px;
-        }
+    }
+    .alt-titulo{
+        height:400px;
+    }
 }
